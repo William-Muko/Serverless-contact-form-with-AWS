@@ -11,6 +11,8 @@ This is a comprehensive serverless contact form solution utilizing AWS Lambda, A
 ```
 S3 Static Website → API Gateway → Lambda Function → Amazon SES → Email Delivery
 ```
+![ServerlessArchitecture](./Serverless.drawio.png)
+
 
 ## Features
 
