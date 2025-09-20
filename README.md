@@ -13,6 +13,16 @@ S3 Static Website → API Gateway → Lambda Function → Amazon SES → Email D
 ```
 ![ServerlessArchitecture](./Serverless.drawio.png)
 
+## Contact Form Preview
+
+![Contact Form](./Contact.png)
+
+The contact form features a modern, responsive design with:
+- Clean, professional styling with gradient background
+- Real-time form validation and user feedback
+- Loading states and success/error messaging
+- Mobile-responsive layout
+- Smooth animations and hover effects
 
 ## Features
 
@@ -27,9 +37,11 @@ S3 Static Website → API Gateway → Lambda Function → Amazon SES → Email D
 
 ```
 Serverless-contact-form-with-AWS/
-├── contact.html          # Contact form HTML page
-├── contact.js           # Frontend JavaScript for form handling
+├── contact.html          # Contact form HTML page with React integration
+├── contact.js           # React-based frontend component
 ├── lambda_function.py   # AWS Lambda backend function
+├── contact-form.png     # Contact form UI preview
+├── Serverless.drawio.png # Architecture diagram
 └── README.md           # This documentation
 ```
 
@@ -192,10 +204,12 @@ const response = await fetch('https://YOUR-API-ID.execute-api.REGION.amazonaws.c
 - References external JavaScript file
 
 ### contact.js
+- React-based contact form component with modern UI
 - Handles form submission with fetch API
-- Includes CORS error handling and timeout protection
-- Form validation and user feedback
-- Prevents browser extension interference
+- Real-time form validation and state management
+- Professional styling with CSS-in-JS approach
+- Loading states and comprehensive error handling
+- Responsive design with gradient background
 
 ### lambda_function.py
 - Processes form data from API Gateway
@@ -287,6 +301,23 @@ This project is open source and available under the [MIT License](LICENSE).
 3. Make your changes
 4. Test thoroughly
 5. Submit a pull request
+
+## Recent Changes
+
+### Version 2.0 (January 2025)
+- **Frontend Modernization:** Converted contact form to React component
+- **Enhanced UI/UX:** Added professional styling with gradient backgrounds
+- **Improved State Management:** Implemented React hooks for form handling
+- **Better User Feedback:** Added loading states and enhanced error messaging
+- **Responsive Design:** Optimized for mobile and desktop viewing
+- **CSS-in-JS:** Eliminated external CSS dependencies for better maintainability
+
+### Key Improvements:
+- Modern React architecture replacing vanilla JavaScript
+- Professional gradient background and card-based layout
+- Enhanced form validation with real-time feedback
+- Improved accessibility and user experience
+- Streamlined styling with inline CSS objects
 
 ## Support
 
