@@ -2,6 +2,17 @@
 
 *If this README confuses you, imagine how I felt writing the code😂*
 
+## Technology Stack
+
+![AWS Lambda](https://img.shields.io/badge/AWS_Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white)
+![API Gateway](https://img.shields.io/badge/API_Gateway-FF4F8B?style=for-the-badge&logo=amazonapigateway&logoColor=white)
+![Amazon SES](https://img.shields.io/badge/Amazon_SES-DD344C?style=for-the-badge&logo=amazonsimpleemailservice&logoColor=white)
+![Amazon S3](https://img.shields.io/badge/Amazon_S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
+![Python](https://img.shields.io/badge/Python_3.12-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+
 ## Overview 
 
 This is a comprehensive serverless contact form solution utilizing AWS Lambda, API Gateway, SES, and S3 for static hosting.
@@ -304,20 +315,14 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Recent Changes
 
-### Version 2.0 (January 2025)
-- **Frontend Modernization:** Converted contact form to React component
-- **Enhanced UI/UX:** Added professional styling with gradient backgrounds
-- **Improved State Management:** Implemented React hooks for form handling
-- **Better User Feedback:** Added loading states and enhanced error messaging
-- **Responsive Design:** Optimized for mobile and desktop viewing
-- **CSS-in-JS:** Eliminated external CSS dependencies for better maintainability
-
-### Key Improvements:
-- Modern React architecture replacing vanilla JavaScript
-- Professional gradient background and card-based layout
-- Enhanced form validation with real-time feedback
-- Improved accessibility and user experience
-- Streamlined styling with inline CSS objects
+### Version 2.0 (August 2025)
+- Migrated from vanilla JavaScript to React 18 with hooks (useState)
+- Implemented inline CSS-in-JS styling approach
+- Added loading states with disabled button during submission
+- Enhanced form feedback with color-coded status messages
+- Applied gradient background (linear-gradient with dark theme)
+- Improved form UX with focus/blur border color transitions
+- Added emoji indicators for button states and status messages
 
 ## Support
 
